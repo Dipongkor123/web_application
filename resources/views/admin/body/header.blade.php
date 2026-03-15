@@ -109,7 +109,7 @@
                                     <div class="dropdown-divider"></div>
         
                                     <!-- item-->
-                                    <form method="POST" action="{{ route('logout') }}">
+                                    <form method="GET" action="{{ route('admin.logout') }}">
                                         @csrf
                                     <button type="submit"  class="dropdown-item notify-item">
                                         <i class="mdi mdi-location-exit fs-16 align-middle"></i>
